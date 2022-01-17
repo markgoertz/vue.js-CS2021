@@ -12,6 +12,7 @@ axios.defaults.headers.common['Accept'] = '*/*';
 axios.defaults.headers.common['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS, DELETE, PUT';
 
 Vue.config.productionTip = false
+export const appurl = 'http://localhost:8080';
 
 new Vue({
   router,
